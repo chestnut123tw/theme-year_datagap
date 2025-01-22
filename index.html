@@ -47,7 +47,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:22, minZoom:8
-        }).fitBounds([[21.422771668886547,118.68548947372092],[26.599579030780678,124.57189804675444]]);
+        }).fitBounds([[24.35226747928066,120.96578976339656],[25.155334051372904,122.42030647746371]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -131,8 +131,7 @@
                         <td colspan="2">' + (feature.properties['current_grid_level'] !== null ? autolinker.link(feature.properties['current_grid_level'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">current_grid</th>\
-                        <td>' + (feature.properties['current_grid'] !== null ? autolinker.link(feature.properties['current_grid'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['current_grid'] !== null ? autolinker.link(feature.properties['current_grid'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -270,7 +269,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,255,255,0.0)',
+                fillColor: 'rgba(255,255,255,0.6980392156862745)',
                 interactive: true,
             };
                 }
@@ -445,7 +444,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,255,255,0.0)',
+                fillColor: 'rgba(255,255,255,0.6980392156862745)',
                 interactive: true,
             };
                 }
