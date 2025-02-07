@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/L.Control.Locate.min.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         html, body, #map {
@@ -36,9 +37,10 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
+        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="data/map_Tracheophyta_countsFieldMapping_1.js"></script>
-        <script src="data/map_countsFieldMapping_2.js"></script>
+        <script src="data/map_Tracheophyta_20250207_1.js"></script>
+        <script src="data/map_20250207download_2.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -47,7 +49,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:22, minZoom:8
-        }).fitBounds([[24.35226747928066,120.96578976339656],[25.155334051372904,122.42030647746371]]);
+        }).fitBounds([[24.50019595957362,121.29764700042608],[25.248382486860113,122.75489623070641]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -109,7 +111,7 @@
         });
         layer_GoogleTerrainHybrid_0;
         map.addLayer(layer_GoogleTerrainHybrid_0);
-        function pop_map_Tracheophyta_countsFieldMapping_1(feature, layer) {
+        function pop_map_Tracheophyta_20250207_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -140,15 +142,15 @@
 			});
 			layer.bindPopup(content, { maxHeight: 400 });
         }
-        function style_map_Tracheophyta_countsFieldMapping_1_0(feature) {
+        function style_map_Tracheophyta_20250207_1_0(feature) {
             var context = {
                 feature: feature,
                 variables: {}
             };
             // Start of if blocks and style check logic
-            if (exp_map_Tracheophyta_countsFieldMapping_1rule0_eval_expression(context)) {
+            if (exp_map_Tracheophyta_20250207_1rule0_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -161,9 +163,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule1_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule1_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -176,9 +178,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule2_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule2_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(0,0,255,1.0)',
                 dashArray: '',
@@ -191,9 +193,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule3_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule3_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -206,9 +208,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule4_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule4_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,196,0,1.0)',
                 dashArray: '',
@@ -219,9 +221,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule5_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule5_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,127,0,1.0)',
                 dashArray: '',
@@ -232,9 +234,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule6_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule6_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,0,0,1.0)',
                 dashArray: '',
@@ -245,9 +247,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule7_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule7_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,0,128,1.0)',
                 dashArray: '',
@@ -258,9 +260,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_Tracheophyta_countsFieldMapping_1rule8_eval_expression(context)) {
+                else if (exp_map_Tracheophyta_20250207_1rule8_eval_expression(context)) {
                   return {
-                pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
+                pane: 'pane_map_Tracheophyta_20250207_1',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -277,20 +279,21 @@
                 return {fill: false, stroke: false};
             }
         }
-        map.createPane('pane_map_Tracheophyta_countsFieldMapping_1');
-        map.getPane('pane_map_Tracheophyta_countsFieldMapping_1').style.zIndex = 401;
-        map.getPane('pane_map_Tracheophyta_countsFieldMapping_1').style['mix-blend-mode'] = 'normal';
-        var layer_map_Tracheophyta_countsFieldMapping_1 = new L.geoJson(json_map_Tracheophyta_countsFieldMapping_1, {
+        map.createPane('pane_map_Tracheophyta_20250207_1');
+        map.getPane('pane_map_Tracheophyta_20250207_1').style.zIndex = 401;
+        map.getPane('pane_map_Tracheophyta_20250207_1').style['mix-blend-mode'] = 'normal';
+        var layer_map_Tracheophyta_20250207_1 = new L.geoJson(json_map_Tracheophyta_20250207_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_map_Tracheophyta_countsFieldMapping_1',
-            layerName: 'layer_map_Tracheophyta_countsFieldMapping_1',
-            pane: 'pane_map_Tracheophyta_countsFieldMapping_1',
-            onEachFeature: pop_map_Tracheophyta_countsFieldMapping_1,
-            style: style_map_Tracheophyta_countsFieldMapping_1_0,
+            dataVar: 'json_map_Tracheophyta_20250207_1',
+            layerName: 'layer_map_Tracheophyta_20250207_1',
+            pane: 'pane_map_Tracheophyta_20250207_1',
+            onEachFeature: pop_map_Tracheophyta_20250207_1,
+            style: style_map_Tracheophyta_20250207_1_0,
         });
-        bounds_group.addLayer(layer_map_Tracheophyta_countsFieldMapping_1);
-        function pop_map_countsFieldMapping_2(feature, layer) {
+        bounds_group.addLayer(layer_map_Tracheophyta_20250207_1);
+        map.addLayer(layer_map_Tracheophyta_20250207_1);
+        function pop_map_20250207download_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -308,6 +311,12 @@
                         <th scope="row">counts</th>\
                         <td>' + (feature.properties['counts'] !== null ? autolinker.link(feature.properties['counts'].toLocaleString()) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['current_grid_level'] !== null ? autolinker.link(feature.properties['current_grid_level'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['current_grid'] !== null ? autolinker.link(feature.properties['current_grid'].toLocaleString()) : '') + '</td>\
+                    </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
@@ -315,15 +324,15 @@
 			});
 			layer.bindPopup(content, { maxHeight: 400 });
         }
-        function style_map_countsFieldMapping_2_0(feature) {
+        function style_map_20250207download_2_0(feature) {
             var context = {
                 feature: feature,
                 variables: {}
             };
             // Start of if blocks and style check logic
-            if (exp_map_countsFieldMapping_2rule0_eval_expression(context)) {
+            if (exp_map_20250207download_2rule0_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -336,9 +345,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule1_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule1_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -351,9 +360,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule2_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule2_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(0,0,255,1.0)',
                 dashArray: '',
@@ -366,9 +375,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule3_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule3_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -381,9 +390,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule4_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule4_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,196,0,1.0)',
                 dashArray: '',
@@ -394,9 +403,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule5_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule5_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,127,0,1.0)',
                 dashArray: '',
@@ -407,9 +416,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule6_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule6_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,0,0,1.0)',
                 dashArray: '',
@@ -420,9 +429,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule7_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule7_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,0,128,1.0)',
                 dashArray: '',
@@ -433,9 +442,9 @@
                 interactive: true,
             };
                 }
-                else if (exp_map_countsFieldMapping_2rule8_eval_expression(context)) {
+                else if (exp_map_20250207download_2rule8_eval_expression(context)) {
                   return {
-                pane: 'pane_map_countsFieldMapping_2',
+                pane: 'pane_map_20250207download_2',
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
@@ -452,23 +461,32 @@
                 return {fill: false, stroke: false};
             }
         }
-        map.createPane('pane_map_countsFieldMapping_2');
-        map.getPane('pane_map_countsFieldMapping_2').style.zIndex = 402;
-        map.getPane('pane_map_countsFieldMapping_2').style['mix-blend-mode'] = 'normal';
-        var layer_map_countsFieldMapping_2 = new L.geoJson(json_map_countsFieldMapping_2, {
+        map.createPane('pane_map_20250207download_2');
+        map.getPane('pane_map_20250207download_2').style.zIndex = 402;
+        map.getPane('pane_map_20250207download_2').style['mix-blend-mode'] = 'normal';
+        var layer_map_20250207download_2 = new L.geoJson(json_map_20250207download_2, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_map_countsFieldMapping_2',
-            layerName: 'layer_map_countsFieldMapping_2',
-            pane: 'pane_map_countsFieldMapping_2',
-            onEachFeature: pop_map_countsFieldMapping_2,
-            style: style_map_countsFieldMapping_2_0,
+            dataVar: 'json_map_20250207download_2',
+            layerName: 'layer_map_20250207download_2',
+            pane: 'pane_map_20250207download_2',
+            onEachFeature: pop_map_20250207download_2,
+            style: style_map_20250207download_2_0,
         });
-        bounds_group.addLayer(layer_map_countsFieldMapping_2);
-        map.addLayer(layer_map_countsFieldMapping_2);
+        bounds_group.addLayer(layer_map_20250207download_2);
+        var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Search',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Search for a place';
         var overlaysTree = [
-            {label: 'map_countsFieldMapping<br /><table><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_00.png" /></td><td>0</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_011.png" /></td><td>0 - 1</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_11002.png" /></td><td>1 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_10048003.png" /></td><td>100 - 4800</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_480048504.png" /></td><td>4800 - 4850</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_485049005.png" /></td><td>4850 - 4900</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_490049506.png" /></td><td>4900 - 4950</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_495050007.png" /></td><td>4950 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/map_countsFieldMapping_2_50008.png" /></td><td>> 5000</td></tr></table>', layer: layer_map_countsFieldMapping_2},
-            {label: 'map_Tracheophyta_countsFieldMapping<br /><table><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_00.png" /></td><td>0</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_011.png" /></td><td>0 - 1</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_11002.png" /></td><td>1 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_10048003.png" /></td><td>100 - 4800</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_480048504.png" /></td><td>4800 - 4850</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_485049005.png" /></td><td>4850 - 4900</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_490049506.png" /></td><td>4900 - 4950</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_495050007.png" /></td><td>4950 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_countsFieldMapping_1_50008.png" /></td><td>> 5000</td></tr></table>', layer: layer_map_Tracheophyta_countsFieldMapping_1},
+            {label: 'map_20250207download<br /><table><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_00.png" /></td><td>0</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_011.png" /></td><td>0 - 1</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_11002.png" /></td><td>1 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_10048003.png" /></td><td>100 - 4800</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_480048504.png" /></td><td>4800 - 4850</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_485049005.png" /></td><td>4850 - 4900</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_490049506.png" /></td><td>4900 - 4950</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_495050007.png" /></td><td>4950 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/map_20250207download_2_50008.png" /></td><td>> 5000</td></tr></table>', layer: layer_map_20250207download_2},
+            {label: 'map_Tracheophyta_20250207<br /><table><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_00.png" /></td><td>0</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_011.png" /></td><td>0 - 1</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_11002.png" /></td><td>1 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_10048003.png" /></td><td>100 - 4800</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_480048504.png" /></td><td>4800 - 4850</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_485049005.png" /></td><td>4850 - 4900</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_490049506.png" /></td><td>4900 - 4950</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_495050007.png" /></td><td>4950 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/map_Tracheophyta_20250207_1_50008.png" /></td><td>> 5000</td></tr></table>', layer: layer_map_Tracheophyta_20250207_1},
             {label: "Google Terrain Hybrid", layer: layer_GoogleTerrainHybrid_0},]
         var lay = L.control.layers.tree(null, overlaysTree,{
             //namedToggle: true,
