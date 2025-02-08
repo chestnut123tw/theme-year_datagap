@@ -757,7 +757,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_map_Tracheophyta_20250207_1rule0_eval_expression(context) {
+function exp_map_Fern_20250209_1rule0_eval_expression(context) {
     // 'counts' = 0
 
     var feature = context.feature;
@@ -770,7 +770,7 @@ function exp_map_Tracheophyta_20250207_1rule0_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule1_eval_expression(context) {
+function exp_map_Fern_20250209_1rule1_eval_expression(context) {
     // counts >= 0 AND counts <= 1
 
     var feature = context.feature;
@@ -783,7 +783,7 @@ function exp_map_Tracheophyta_20250207_1rule1_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule2_eval_expression(context) {
+function exp_map_Fern_20250209_1rule2_eval_expression(context) {
     // counts > 1 AND counts <= 100
 
     var feature = context.feature;
@@ -796,7 +796,7 @@ function exp_map_Tracheophyta_20250207_1rule2_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule3_eval_expression(context) {
+function exp_map_Fern_20250209_1rule3_eval_expression(context) {
     // counts > 100 AND counts <= 4800
 
     var feature = context.feature;
@@ -809,7 +809,7 @@ function exp_map_Tracheophyta_20250207_1rule3_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule4_eval_expression(context) {
+function exp_map_Fern_20250209_1rule4_eval_expression(context) {
     // counts > 4800 AND counts <= 4850
 
     var feature = context.feature;
@@ -822,7 +822,7 @@ function exp_map_Tracheophyta_20250207_1rule4_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule5_eval_expression(context) {
+function exp_map_Fern_20250209_1rule5_eval_expression(context) {
     // counts > 4850 AND counts <= 4900
 
     var feature = context.feature;
@@ -835,7 +835,7 @@ function exp_map_Tracheophyta_20250207_1rule5_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule6_eval_expression(context) {
+function exp_map_Fern_20250209_1rule6_eval_expression(context) {
     // counts > 4900 AND counts <= 4950
 
     var feature = context.feature;
@@ -848,7 +848,7 @@ function exp_map_Tracheophyta_20250207_1rule6_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule7_eval_expression(context) {
+function exp_map_Fern_20250209_1rule7_eval_expression(context) {
     // counts > 4950 AND counts <= 5000
 
     var feature = context.feature;
@@ -861,7 +861,7 @@ function exp_map_Tracheophyta_20250207_1rule7_eval_expression(context) {
 }
 
 
-function exp_map_Tracheophyta_20250207_1rule8_eval_expression(context) {
+function exp_map_Fern_20250209_1rule8_eval_expression(context) {
     // counts > 5000
 
     var feature = context.feature;
@@ -874,7 +874,7 @@ function exp_map_Tracheophyta_20250207_1rule8_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule0_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule0_eval_expression(context) {
     // 'counts' = 0
 
     var feature = context.feature;
@@ -887,7 +887,7 @@ function exp_map_20250207download_2rule0_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule1_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule1_eval_expression(context) {
     // counts >= 0 AND counts <= 1
 
     var feature = context.feature;
@@ -900,7 +900,7 @@ function exp_map_20250207download_2rule1_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule2_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule2_eval_expression(context) {
     // counts > 1 AND counts <= 100
 
     var feature = context.feature;
@@ -913,7 +913,7 @@ function exp_map_20250207download_2rule2_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule3_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule3_eval_expression(context) {
     // counts > 100 AND counts <= 4800
 
     var feature = context.feature;
@@ -926,7 +926,7 @@ function exp_map_20250207download_2rule3_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule4_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule4_eval_expression(context) {
     // counts > 4800 AND counts <= 4850
 
     var feature = context.feature;
@@ -939,7 +939,7 @@ function exp_map_20250207download_2rule4_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule5_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule5_eval_expression(context) {
     // counts > 4850 AND counts <= 4900
 
     var feature = context.feature;
@@ -952,7 +952,7 @@ function exp_map_20250207download_2rule5_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule6_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule6_eval_expression(context) {
     // counts > 4900 AND counts <= 4950
 
     var feature = context.feature;
@@ -965,7 +965,7 @@ function exp_map_20250207download_2rule6_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule7_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule7_eval_expression(context) {
     // counts > 4950 AND counts <= 5000
 
     var feature = context.feature;
@@ -978,7 +978,124 @@ function exp_map_20250207download_2rule7_eval_expression(context) {
 }
 
 
-function exp_map_20250207download_2rule8_eval_expression(context) {
+function exp_map_Tracheophyta_20250209_2rule8_eval_expression(context) {
+    // counts > 5000
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['counts']  > 5000.0);
+    } else {
+        return (feature['counts']  > 5000.0);
+    }
+}
+
+
+function exp_map_20250209_3rule0_eval_expression(context) {
+    // 'counts' = 0
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ('counts' == 0);
+    } else {
+        return ('counts' == 0);
+    }
+}
+
+
+function exp_map_20250209_3rule1_eval_expression(context) {
+    // counts >= 0 AND counts <= 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  >= 0.0) && (feature.properties['counts']  <= 1.0));
+    } else {
+        return ((feature['counts']  >= 0.0) && (feature['counts']  <= 1.0));
+    }
+}
+
+
+function exp_map_20250209_3rule2_eval_expression(context) {
+    // counts > 1 AND counts <= 100
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 1.0) && (feature.properties['counts']  <= 100.0));
+    } else {
+        return ((feature['counts']  > 1.0) && (feature['counts']  <= 100.0));
+    }
+}
+
+
+function exp_map_20250209_3rule3_eval_expression(context) {
+    // counts > 100 AND counts <= 4800
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 100.0) && (feature.properties['counts']  <= 4800.0));
+    } else {
+        return ((feature['counts']  > 100.0) && (feature['counts']  <= 4800.0));
+    }
+}
+
+
+function exp_map_20250209_3rule4_eval_expression(context) {
+    // counts > 4800 AND counts <= 4850
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 4800.0) && (feature.properties['counts']  <= 4850.0));
+    } else {
+        return ((feature['counts']  > 4800.0) && (feature['counts']  <= 4850.0));
+    }
+}
+
+
+function exp_map_20250209_3rule5_eval_expression(context) {
+    // counts > 4850 AND counts <= 4900
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 4850.0) && (feature.properties['counts']  <= 4900.0));
+    } else {
+        return ((feature['counts']  > 4850.0) && (feature['counts']  <= 4900.0));
+    }
+}
+
+
+function exp_map_20250209_3rule6_eval_expression(context) {
+    // counts > 4900 AND counts <= 4950
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 4900.0) && (feature.properties['counts']  <= 4950.0));
+    } else {
+        return ((feature['counts']  > 4900.0) && (feature['counts']  <= 4950.0));
+    }
+}
+
+
+function exp_map_20250209_3rule7_eval_expression(context) {
+    // counts > 4950 AND counts <= 5000
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['counts']  > 4950.0) && (feature.properties['counts']  <= 5000.0));
+    } else {
+        return ((feature['counts']  > 4950.0) && (feature['counts']  <= 5000.0));
+    }
+}
+
+
+function exp_map_20250209_3rule8_eval_expression(context) {
     // counts > 5000
 
     var feature = context.feature;
