@@ -758,14 +758,14 @@ function fnc_project_color(values, context) {
 
 
 function exp_map_Fern_20250209_2rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
@@ -875,14 +875,14 @@ function exp_map_Fern_20250209_2rule8_eval_expression(context) {
 
 
 function exp_map_Tracheophyta_20250209_3rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
@@ -992,14 +992,14 @@ function exp_map_Tracheophyta_20250209_3rule8_eval_expression(context) {
 
 
 function exp_map_20250209_4rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
@@ -1109,14 +1109,14 @@ function exp_map_20250209_4rule8_eval_expression(context) {
 
 
 function exp_map_Fern_20250625_5rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
@@ -1226,14 +1226,14 @@ function exp_map_Fern_20250625_5rule8_eval_expression(context) {
 
 
 function exp_map_Tracheophyta_20250625_6rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
@@ -1343,14 +1343,14 @@ function exp_map_Tracheophyta_20250625_6rule8_eval_expression(context) {
 
 
 function exp_map_20250625_7rule0_eval_expression(context) {
-    // 'counts' = 0
+    // counts = 0
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('counts' == 0);
+        return (feature.properties['counts']  == 0);
     } else {
-        return ('counts' == 0);
+        return (feature['counts']  == 0);
     }
 }
 
